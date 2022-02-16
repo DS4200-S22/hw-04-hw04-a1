@@ -14,5 +14,5 @@ function circ3Click(){
 	else {
 		document.getElementById("but3").style.opacity = "0.0";
 	}
-    circOpac = !circOpacity;
+    circOpacity = !circOpacity;
 };
