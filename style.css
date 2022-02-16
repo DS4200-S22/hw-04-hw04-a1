@@ -1,0 +1,52 @@
+h1 {
+    font-family: Arial;
+    text-align: center;
+}
+
+body {
+    font-family: Arial;
+    text-align: center;
+    justify-content: space-evenly;
+    column-gap: auto;
+}
+
+.container{
+	display:  flex;
+	justify-content: space-evenly;
+}
+
+.circ1 {
+    background-color: blue;
+    border: 2px solid black;
+    border-radius: 50%;
+    height:  80px;
+    margin: auto;
+    width: 80px;
+}
+
+.circ2 {
+    background-color: green;
+    border-radius: 50%; 
+    height:  80px;
+    width: 80px;
+}
+
+.circ3 {
+  background-color: yellow;
+  border: 2px solid black;
+  border-radius: 50%; 
+  height:  80px;
+  width: 80px;
+}
+
+.but1 {
+
+}
+
+.c2:hover {
+	border: 2px solid black;
+}
+
+.but3 {
+
+}
