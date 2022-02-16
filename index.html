@@ -13,19 +13,19 @@
     <div class="container">
         <button class="but1" type="button" onClick="circ1Click()">
             <svg class = "circ1">
-                    <text x="50%" y="50%" id="clicked"> 0 </text>
+                    <text x="50%" y="50%" id="circ1Clicked"> 0 </text>
             </svg>
         </button>
     
-        <svg class = "circ2"></svg>
+        <svg class = "circ2" id = "circ2Over" onMouseOver="circ2Mouse()" onMouseOut="circ2MouseOut()"> </svg>
     
         <button class="but3" type="button" onClick="circ3Click()">
-            <svg class = "circ3"></svg>
+            <svg class = "circ3" id="circ3Clicked"></svg>
         </button>
     </div>
 
     <script src="eventhandle.js"></script>
-    
+
 </body>
 
     

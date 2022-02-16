@@ -17,6 +17,7 @@ body {
 
 button {
     background: transparent;
+    border: transparent;
 }
 
 .circ1 {
@@ -41,8 +42,4 @@ button {
   border-radius: 50%; 
   height:  80px;
   width: 80px;
-}
-
-.circ2:hover {
-	border: 2px solid black;
 }
